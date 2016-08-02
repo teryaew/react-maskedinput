@@ -25,7 +25,6 @@
     "lint": "eslint src tests",
     "start": "nwb serve",
     "test": "nwb test",
-    "postinstall": "./node_modules/nwb/bin/nwb build",
     "posttest": "npm run lint",
     "test:watch": "nwb test --server"
   },
