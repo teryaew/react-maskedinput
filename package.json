@@ -23,6 +23,7 @@
     "build": "nwb build",
     "clean": "nwb clean",
     "lint": "eslint src tests",
+    "prepublish": "nwb build",
     "start": "nwb serve",
     "test": "nwb test",
     "posttest": "npm run lint",
